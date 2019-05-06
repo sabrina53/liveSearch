@@ -1,0 +1,315 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+ -ms-interpolation-mode: bicubic;
+
+}
+
+body {
+	font-family: "Roboto", Arial, sans-serif;
+	font-size: 100%;
+	font-weight: lighter;
+	background-color: #99C794;
+	padding-bottom: 60px;
+}
+
+h1{
+	text-align: center;
+	font-size: 2.5em;
+	font-family: "Roboto", Arial, sans-serif;
+	font-weight: normal;
+	color: #FD5C2D;
+	text-transform: uppercase;
+	letter-spacing: -2px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	color:#000000;
+    font-weight: lighter;
+    font-size: 20px;
+    line-height: 25pt;
+	text-align: center;
+}
+
+h3 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+p {
+	text-align: center;
+	line-height: 1.4;
+}
+
+#logo {
+display: block;
+width: 400px;
+margin-left: auto;
+margin-right:auto;
+}
+
+ #intro {
+ 	width: 300px;
+ 	text-align: center: 
+ 	margin-left: auto;
+ 	margin-right:auto;
+}
+#intro h2 {
+    font-size: 17px;
+ }
+
+ #search {
+	width: 300px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+}
+
+#searchbox {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: 35px;
+	width: 270px;
+	border: solid 1px #ccc;
+	box-shadow: inset 0px 1px 3px rgba(100,100,100,.5);	
+}
+
+
+#txtHint {
+	display: inline;
+	font-size:1.1em;
+	color:#FBC263;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+#txtHint img{
+	width: 60px;
+}
+
+#txtHint a:link {
+text-decoration:none;
+color:#FBC263;
+padding: 5px 5px;
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+}
+
+#txtHint a:visited {
+text-decoration:none;
+color:#FBC263;
+}
+
+#txtHint a:hover {
+color:#fff;
+background-color: #FBC263;
+padding: 5px;
+} 
+
+#maindiv {
+	background-color: white;
+	width: 300px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	left: -20px;
+}
+
+
+
+@media screen and (min-width: 500px) {
+#logo {
+display: block;
+width: 400px;
+margin-left: auto;
+margin-right:auto;
+
+ }
+ #intro {
+ 	width: 400px;
+ 	text-align: center: 
+ 	margin-left: auto;
+ 	margin-right:auto;
+}
+	#intro h2{
+    font-size: 17px;
+ }
+
+ #search{
+	width: 450px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 20px;
+	border: solid 1px #ccc;
+	position: relative;
+}
+
+#searchbox
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	height: 35px;
+	width: 270px;
+	border: solid 1px #ccc;
+	box-shadow: inset 0px 1px 3px rgba(100,100,100,.5);
+	margin-left: 10px;
+}
+
+#maindiv {
+	background-color: white;
+	width: 450px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	left: -20px;
+}
+
+#txtHint {
+	font-size:1.55em;
+	color:#FBC263;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+#txtHint a:link {
+text-decoration:none;
+display: block;
+margin-bottom: 20px;
+color:#FBC263;
+padding: 5px 5px;
+}
+
+#txtHint a:visited {
+text-decoration:none;
+margin-bottom: 20px;
+color:#FBC263;
+
+}
+
+#txtHint a:hover {
+margin-bottom: 20px;
+color:#fff;
+background-color: #FBC263;
+padding: 5px;
+}
+
+}
+
+
+@media screen and (min-width: 750px) {
+h2 {
+		text-align: left;
+	}
+
+ #logo {
+
+display: block;
+position: relative;
+width: 400px;
+margin-left: auto;
+margin-right:auto;
+
+ }
+
+ #intro {
+ 	width: 500px;
+ 	margin-left: auto;
+ 	margin-right:auto;
+ }
+
+ #intro h2 {
+	color: #8E887D
+
+ }
+
+
+#search{
+	width: 1200px;
+	height: 100%;
+	background-color: #fff;
+	padding: 20px;
+	border: solid 1px #ccc;
+	position: relative;
+}
+
+#searchbox
+{
+	position: relative;
+	margin-right: 20px;
+	padding: 10px;
+	height: 35px;
+	width: 270px;
+	border: solid 1px #ccc;
+	box-shadow: inset 0px 1px 3px rgba(100,100,100,.5);	
+}
+
+#txtHint {
+	text-align: center;
+	font-size:1.25em;
+	color:#FBC263;
+	margin-top: 40px;
+	margin-left: 20px;
+}
+
+
+#txtHint a:link {
+text-align: center;
+text-decoration:none;
+display: block;
+color:#FBC263;
+font-size:1.1em;
+font-weight: normal;
+padding: 5px 5px;
+display: inline-flex;
+margin-left: auto;
+margin-right: auto;
+align-items: center;
+}
+
+#txtHint a:visited {
+text-decoration:none;
+text-align: center;
+color:#FBC263;
+}
+
+#txtHint a:hover {
+text-align: center;
+color:#fff;
+background-color: #FBC263;
+padding: 5px;
+}
+
+
+
+#maindiv {
+	display:flex;
+	width:700px;
+	text-align: center;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#maindiv img{
+	flex-grow:2;
+	}
+
+#data{
+	flex-shrink:2;
+	margin-left: 10px;
+
+ }
+}
+
+
+
